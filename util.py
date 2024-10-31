@@ -32,7 +32,7 @@ def disconnect_from_db(connection,cursor):
 
 
 # run_sql(cursor,"select from;")
-def run_and_fetch_sql(cursor, sql_string=""):
+def run_and_fetch_sql(cursor, sql_string="SELECT a.fruit_a AS fruit_a, NULL AS fruit_b FROM basket_a a LEFT JOIN basket_b b ON a.fruit_a = b.fruit_b WHERE b.fruit_b IS NULL UNION ALL SELECT NULL AS fruit_a, b.fruit_b AS fruit_b FROM basket_b b LEFT JOIN basket_a a ON b.fruit_b = a.fruit_a WHERE a.fruit_a IS NULL;"):
 	try:
 	    # Executing a SQL query
 	    # cursor.execute("SELECT version();")
