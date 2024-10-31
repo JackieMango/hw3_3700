@@ -1,4 +1,4 @@
-Jaqueline FLores-Valdivia,
+Jaqueline Flores-Valdivia,
 HW3: This project shows unique fruits in basket_a and unique fruits in basket_b in an HTML table. If there are any errors from PostgreSQL, shows an error message on the browser.
 
 ## Quick Start
