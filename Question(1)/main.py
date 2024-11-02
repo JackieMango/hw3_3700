@@ -15,7 +15,7 @@ def update_basket_a():
     cursor, connection = util.connect_to_db(username, password, host, port, database)
     try:
         # SQL command to insert a new row into basket_a
-        cursor.execute("INSERT INTO basket_a (a, fruit_a) VALUES (6, 'Cherry');")
+        cursor.execute("INSERT INTO basket_a (a, fruit_a) VALUES (5, 'Cherry');")
         connection.commit() 
         return "Success!"  
     except Exception as e:
