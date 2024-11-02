@@ -1,5 +1,5 @@
 Jaqueline Flores-Valdivia, Caitlin Sarah Irvine-Smith
-HW3 (1): This project shows how we can connect PostgreSQL with flask and show SQL results and inserts a new row (5, 'Cherry') into basket_a. On the browser, it shows either show "Success!" Or error message from PostgreSQL.
+HW3 (1): This project shows how we can connect PostgreSQL with flask and show SQL results, inserts a new row (5, 'Cherry') into basket_a. On the browser, it shows either show "Success!" Or error message from PostgreSQL.
 
 ## Quick Start
 ### Local Test Setup
